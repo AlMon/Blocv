@@ -1,11 +1,11 @@
 module.exports = {
-    title: 'Ryosuke · Change the world one app at a time',
-    description: 'The portfolio and blog of Ryosuke',
-    keywords: 'web designer for hire, designer for hire, ryosuke design, oscar diaz, whoisryosuke, ryosuke hana',
-    url: 'http://whoisryosuke.com/',
-    image: 'http://whoisryosuke.com/assets/favicon/android-chrome-512x512.png',
-    logo: 'http://whoisryosuke.com/assets/favicon/android-chrome-512x512.png',
-    twitter: '@whoisryosuke',
+    title: 'Al Mondragón · Un Desarrollador Front-End & Su Blog',
+    description: 'El blog y portafolio de Al Mondragón',
+    keywords: 'web engineer, web designer for hire, designer for hire, al mondragon',
+    url: 'https://mondragon.pro/',
+    image: 'https://mondragon.pro/assets/favicon/android-chrome-512x512.png',
+    logo: 'https://mondragon.pro/assets/favicon/android-chrome-512x512.png',
+    twitter: '@albrtk',
     fbAppID: '',
 
 

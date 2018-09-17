@@ -4,14 +4,12 @@ import Link from "gatsby-link";
 import config from '../config';
 
 import Skills from '../components/Skills';
-import Newsletter from '../components/Newsletter';
 import PostLoop from '../components/PostLoop';
 import FrontpageContact from '../components/Frontpage/Contact';
 
 import BombEmoji from '../assets/img/emoji/bomb.png';
 import TeachingEmoji from '../assets/img/emoji/teaching.png';
 import RyosukePortrait from '../assets/img/avatar-face-400px.png';
-import RyosukeAvatar from '../assets/img/ryosuke-avatar-128.png';
 
 export default class Frontpage extends Component {
     constructor(props) {
@@ -65,25 +63,6 @@ export default class Frontpage extends Component {
                 </div>
                 {/*------- Posts loop -------*/}
                 <PostLoop loop={data.projects.edges} skip={skip} />
-
-
-                {/*------- Speaking / Workshops -------*/}
-                <section className="container Speaking">
-                    <h2 className="Title text blue">Speaking and Workshops <img src={ TeachingEmoji } alt="University cap emoji" /></h2>
-                    <p class="header">
-                        I’m available for speaking gigs, <a href="mailto:ryosuke.san.hana@gmail.com">contact me anytime</a>.
-                        I love to speak about my experiences with full-stack development, entrepreneurship, or design and branding.
-                    </p>
-                    {/* <h3 className="Title text blue">Upcoming Speaking Engagements</h3>
-                    <ul>
-                        <li>
-                            <a href="#">Gig</a>
-                        </li>
-                    </ul> */}
-                    {/* <h3 className="Title text blue">Previous Speaking Engagements</h3> */}
-                </section>
-
-                <Newsletter />
 
                 <FrontpageContact />
 

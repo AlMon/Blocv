@@ -6,7 +6,7 @@ cover_image: "./Adding-testing-linting-docs-to-your-design-system-1920px.jpg"
 tags: [ 'testing', 'eslint', 'prettier', 'documentation', 'design', 'design system', 'react', 'open source', 'javascript', 'tutorial' ]
 ---
 
-[In the last tutorial](http://whoisryosuke.com/blog/2018/creating-a-design-system-for-reactjs-from-scratch/), we created the basis of a design system using ReactJS and CSS in JS. 
+[In the last tutorial](https://mondragon.pro/blog/2018/creating-a-design-system-for-reactjs-from-scratch/), we created the basis of a design system using ReactJS and CSS in JS. 
 
 Now we can add basic testing, linting, and automated documentation to the design system. 
 
@@ -107,7 +107,7 @@ Now that you've created a test, let's run it! `npm run test` and see if it fails
 
 ## Adding linting 🔏
 
-I actually have a separate guide on this for any project in general. You can find my guide on [adding automatic code linting and formatting to your projects using ESLint and Prettier here](http://whoisryosuke.com/blog/2018/setting-up-eslint-prettier-on-project/).
+I actually have a separate guide on this for any project in general. You can find my guide on [adding automatic code linting and formatting to your projects using ESLint and Prettier here](https://mondragon.pro/blog/2018/setting-up-eslint-prettier-on-project/).
 
 ## Adding Documentation 📚
 

@@ -8,7 +8,7 @@ export default (props) => {
 
     const disqusShortname = 'ryosuke';
     const disqusConfig = {
-        url: `http://whoisryosuke.com/${post.frontmatter.section}/${post.fields.slug}`,
+        url: `https://mondragon.pro/${post.frontmatter.section}/${post.fields.slug}`,
         identifier: post.fields.slug,
         title: post.frontmatter.title,
     };

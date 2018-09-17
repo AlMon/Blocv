@@ -136,11 +136,11 @@ export default class BlogPost extends Component {
                   </h5>
                 </figure>
                 <section className="share">
-                  <a href={`http://twitter.com/share?text=${post.frontmatter.title}&url=http://whoisryosuke.com/${post.fields.slug}&hashtags=${post.frontmatter.tags }`} className="twitter">
+                  <a href={`http://twitter.com/share?text=${post.frontmatter.title}&url=https://mondragon.pro/${post.fields.slug}&hashtags=${post.frontmatter.tags }`} className="twitter">
                     { post.frontmatter.section === 'blog' ? 'Share on Twitter' : 'Share' }
                     <Twitter />
                   </a>
-                  <a href={`http://www.tumblr.com/share/link?url=http://whoisryosuke.com${post.fields.slug}`} className="tumblr">
+                  <a href={`http://www.tumblr.com/share/link?url=https://mondragon.pro${post.fields.slug}`} className="tumblr">
                     { post.frontmatter.section === 'blog' ? 'Share on Tumblr' : 'Share' }
                     <Tumblr />
                   </a>

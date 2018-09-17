@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import MoneyBagEmoji from '../../assets/img/emoji/money-bag.png';
+import IdeaEmoji from '../../assets/img/emoji/idea.png';
 
 export default class Skills extends Component {
     constructor(props) {
@@ -67,7 +67,7 @@ export default class Skills extends Component {
 
         return(
             <div className="container row Skills">
-                <p>I've got the <strong>skills</strong> to the pay the <strong>bills</strong> <img src={MoneyBagEmoji} alt="Money bag emoji" height="36" /></p>
+                <p>I've got the <strong>skills</strong> to the pay the <strong>bills</strong> <img src={IdeaEmoji} alt="Idea emoji" height="35" style={{paddingTop: "5px"}} /></p>
                 <section className={'TagCloud skills ' + seeMore}>
                     <ul>
                         { skillsList }

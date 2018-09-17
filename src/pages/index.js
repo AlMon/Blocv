@@ -5,7 +5,6 @@ import Img from "gatsby-image";
 import config from '../config';
 
 import ServicesGrid from '../components/ServicesGrid';
-import Newsletter from '../components/Newsletter';
 import Featured from '../components/Featured';
 import PostLoop from '../components/PostLoop';
 import FrontpageContact from '../components/Frontpage/Contact';
@@ -36,9 +35,9 @@ export default class Frontpage extends Component {
       <div className="Frontpage pt2">
         <div className="container Frontpage__hero">
           <h1>
-            Hey I'm <span className="text blue">Ryosuke</span> <Img resolutions={PeaceEmoji.resolutions} alt="Peace sign emoji" />
-            <br />Designer, developer,
-            <br /> &amp; influencer <Img resolutions={ThoughtCloudEmoji.resolutions} alt="Thought cloud emoji" />
+            Hola, soy <span className="text blue">Alberto</span> <Img resolutions={PeaceEmoji.resolutions} alt="Peace sign emoji" />
+            <br />Diseñador, desarrollador,
+            <br /> <span className="text blue">&amp;</span> entusiasta de la tecnología <Img resolutions={ThoughtCloudEmoji.resolutions} alt="Thought cloud emoji" />
           </h1>
         </div>
         <div className="container Frontpage__about">
@@ -67,11 +66,9 @@ export default class Frontpage extends Component {
           <h2 className="Title text blue">Latest projects</h2>
         </div>
         <PostLoop loop={projects.edges} skip={!skip} />
-        <div className="container centered">
+        <div className="container centered" style={{marginBottom : "50px"}}>
           <Link to={'projects'} className="btn">See more eye candy</Link>
         </div>
-        
-        <Newsletter />
 
         <FrontpageContact CoffeeEmoji={ CoffeeEmoji } />
 
