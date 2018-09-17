@@ -64,7 +64,7 @@ const getSchemaOrgJSONLD = ({
                 },
                 publisher: {
                     '@type': 'Organization',
-                    url: 'https://ryosuke.design',
+                    url: 'https://mondragon.pro',
                     logo: config.logo,
                     name: 'Ryosuke Hana',
                 },

@@ -131,7 +131,7 @@ export default class BlogPost extends Component {
                 <figure className="author">
                   <img src={ryosukeAvatar} alt="Blue square avatar white centered hiragana text reading Ryosuke" />
                   <h5>
-                    @Ryosuke
+                    @Al Mondragón
                     <span className="date">{ nicetime(currentDate, postDate) }</span>                  
                   </h5>
                 </figure>

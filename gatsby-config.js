@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Al Mondragon`,
-    description: `El blog y portafolio de Al Mondragón`,
+    description: `El Blog & Portafolio de Al Mondragón`,
     siteUrl: `http://mondragon.pro/`,
   },
   plugins: [
@@ -68,8 +68,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: "Ryosuke - Designer, Developer, & Influencer",
-        short_name: "Ryosuke",
+        name: "Al Mondragón - Diseñador, Desarrollador & Aventurero",
+        short_name: "AlMon",
         start_url: "/",
         background_color: "#F5F5F5",
         theme_color: "#005CDD",

@@ -1,4 +1,4 @@
-# Personal Portfolio and Blog of Ryosuke
+# Personal Portfolio and Blog of Al Mondragón
 
 A personal portfolio and blog created with the [GatsbyJS](http://gatsbyjs.org/docs/) framework to generate a static React powered website. It's lightning fast, SEO and PWA friendly, and deploys directly to a CDN like Github Pages or [Netlify](http://netlify.com). 
 

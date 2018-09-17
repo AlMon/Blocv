@@ -1,8 +1,8 @@
 {
-  "name": "ryosuke-gatsby-blog",
-  "description": "Personal Portfolio and Blog of Ryosuke",
+  "name": "almon-gatsby-blog",
+  "description": "El Blog & Portafolio de Al Mondragón`",
   "version": "1.0.0",
-  "author": "Ryosuke <ryosuke.san.hana@gmail.com>",
+  "author": "Al Mondragón <al.drago@live.com>",
   "dependencies": {
     "axios": "^0.18.0",
     "disqus-react": "^1.0.5",
