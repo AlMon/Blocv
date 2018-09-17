@@ -44,30 +44,30 @@ export default class Frontpage extends Component {
           <figure>
             <Img resolutions={RyosukeAvatar.resolutions} alt="Ryosuke in white Japanese font on blue background" />
           </figure>
-          <p>I'm a <strong>designer</strong> and <strong>full stack engineer</strong> currently residing in Los Angeles. I live for <strong>stunning design</strong>, <strong>accessible UX</strong>, and <strong>inspiring others</strong> through my work.</p>
+          <p>Soy un <strong>Diseñador</strong> e <strong>Ingeniero Front-End</strong> actualmente viviendo en la Ciudad de México. Me encanta todo lo que tiene que ver con <strong>React</strong>, <strong>Angular</strong>, &amp; <strong>Vue</strong>.</p>
         </div>
 
         <ServicesGrid />
 
         {/*------- Featured image -------*/}
         <div className="container">
-          <h2 className="Title text blue">Latest posts</h2>        
+          <h2 className="Title text blue">Lo Último de Mi Blog</h2>        
         </div>
         <Featured post={blog.edges[0].node} />
 
         {/*------- Posts loop -------*/}
         <PostLoop loop={blog.edges} skip={skip} />
         <div className="container centered">
-          <Link to={'blog'} className="btn">Find more reading material</Link>
+          <Link to={'blog'} className="btn">El Resto de Mi Blog</Link>
         </div>
 
         {/*------- Projects loop -------*/}
         <div className="container pt4">
-          <h2 className="Title text blue">Latest projects</h2>
+          <h2 className="Title text blue">Proyectos Open Source Recientes</h2>
         </div>
         <PostLoop loop={projects.edges} skip={!skip} />
         <div className="container centered" style={{marginBottom : "50px"}}>
-          <Link to={'projects'} className="btn">See more eye candy</Link>
+          <Link to={'projects'} className="btn">Más Proyectos</Link>
         </div>
 
         <FrontpageContact CoffeeEmoji={ CoffeeEmoji } />

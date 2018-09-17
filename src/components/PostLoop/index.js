@@ -7,8 +7,8 @@ import arrowRight from '../../assets/img/icon-arrow-right.svg';
 
 export default (props) => {
     const links = {
-        blog: 'Read post',
-        project: 'View project',
+        blog: 'Leer Post',
+        project: 'Ver Proyecto',
     };
     let postLoop;
     const currentDate = new Date();    

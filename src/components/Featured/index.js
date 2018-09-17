@@ -6,8 +6,8 @@ import arrowRight from '../../assets/img/icon-arrow-right.svg';
 
 export default (props) => {
     const links = {
-        blog: 'Read post',
-        portfolio: 'View project',
+        blog: 'Leer Post',
+        portfolio: 'Ver Proyecto',
     };
     let featured = props.post;
     return (

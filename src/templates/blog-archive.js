@@ -21,18 +21,18 @@ const IndexPage = ({ data, pathContext }) => {
     return (
         <div className="BlogArchive">
             <header className="container Title">
-                <h1>{ capitalizeFirstLetter(pathPrefix) } archive</h1>
-                <h4 className="Title__sub">Page {index}</h4>
+                <h1 style={{color: "#005CDD"}}>Lo Último de Mi { capitalizeFirstLetter(pathPrefix) }</h1>
+                <h4 className="Title__sub">Pagina {index}</h4>
             </header>
 
             <PostLoop loop={group} />
 
             <nav className="Pagination container">
                 <div className="prev">
-                    <NavLink test={first} url={previousUrl} text="Go to Previous Page" />
+                    <NavLink test={first} url={previousUrl} text="Página Anterior" />
                 </div>
                 <div className="next">
-                    <NavLink test={last} url={nextUrl} text="Go to Next Page" />
+                    <NavLink test={last} url={nextUrl} text="Página Siguiente" />
                 </div>
             </nav>
         </div>

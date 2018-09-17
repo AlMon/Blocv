@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Al Mondragon`,
+    title: `Al Mondragón`,
     description: `El Blog & Portafolio de Al Mondragón`,
     siteUrl: `http://mondragon.pro/`,
   },
