@@ -14,7 +14,7 @@ export default class FrontpageContact extends Component {
         return (
             <div className="cta gray very padded Frontpage__contact">
                 <div className="container centered">
-                    <h2 className="text blue">Estoy buscando mi siguiente aventura ¿Hablamos? { CoffeeEmojiImg }</h2>
+                    <h2 className="text blue">Estoy buscando mi siguiente reto profesional ¿Hablamos? { CoffeeEmojiImg }</h2>
                     <p>Quiero ser parte de proyectos que sean críticos para el éxito de tu compañía.</p>
                     <p><img src={ EmailIcon } alt="Email icon" /><a href="mailto:al.drago@live.com">al.drago@live.com</a></p>
                 </div>
