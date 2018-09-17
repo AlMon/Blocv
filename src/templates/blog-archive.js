@@ -21,7 +21,7 @@ const IndexPage = ({ data, pathContext }) => {
     return (
         <div className="BlogArchive">
             <header className="container Title">
-                <h1 style={{color: "#005CDD"}}>Lo Último de Mi { capitalizeFirstLetter(pathPrefix) }</h1>
+                <h1 style={{color: "#005CDD"}}>{ pathPrefix === "blog" ? `Lo Último De Mi ${capitalizeFirstLetter(pathPrefix)}` : `Mis Ultimos Proyectos Open Source`  }</h1>
                 <h4 className="Title__sub">Pagina {index}</h4>
             </header>
 

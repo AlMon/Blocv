@@ -9,7 +9,7 @@ import FrontpageContact from '../components/Frontpage/Contact';
 
 import BombEmoji from '../assets/img/emoji/bomb.png';
 import TeachingEmoji from '../assets/img/emoji/teaching.png';
-import RyosukePortrait from '../assets/img/avatar-face-400px.png';
+import AlMonPortrait from '../assets/img/avatar-face-400px.png';
 
 export default class Frontpage extends Component {
     constructor(props) {
@@ -29,16 +29,16 @@ export default class Frontpage extends Component {
             <div className="About pt2">
                 <div className="container Frontpage__hero">
                     <h1>
-                        The artist formerly known as <span className="text blue">Oscar</span> <img src={ BombEmoji } alt="Bomb emoji" />
+                        Mi nombre es <span className="text blue">Alberto Mondragón</span> <img src={ BombEmoji } alt="Bomb emoji" />
                     </h1>
                     <h3>
-                        Ryosuke meaning <span className="clear">clear</span> mediation.
+                        Me encanta el desarrollo web <span className="text blue">Front-End</span>
                     </h3>
                 </div>
                 <div className="container About__bio">
 
                     <figure>
-                        <img src={RyosukePortrait} />
+                        <img src={AlMonPortrait} />
                     </figure>
 
                     <aside className="bio">

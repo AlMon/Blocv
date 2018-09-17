@@ -20,10 +20,10 @@ class Header extends Component {
         <nav className="Navigation">
           <ul>
             <li>
-              <Link to={'/projects'}>Proyectos</Link>
+              <Link to={'/blog'}>Mi Blog</Link>
             </li>
             <li>
-              <Link to={'/blog'}>Mi Blog</Link>
+              <Link to={'/projects'}>Proyectos</Link>
             </li>
             <li>
               <Link to={'/about'}>Acerca de Mi</Link>
