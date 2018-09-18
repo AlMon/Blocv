@@ -59,7 +59,7 @@ export default class Frontpage extends Component {
 
                 {/*------- Featured image -------*/}
                 <div className="container">
-                    <h2 className="Title text blue">My recent work</h2>
+                    <h2 className="Title text blue">Proyectos Open Source</h2>
                 </div>
                 {/*------- Posts loop -------*/}
                 <PostLoop loop={data.projects.edges} skip={skip} />

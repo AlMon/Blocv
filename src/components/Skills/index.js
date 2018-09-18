@@ -53,7 +53,7 @@ export default class Skills extends Component {
         ];
 
         let skillsList = skills.map((skill) => (
-            <li className={skill.class}>
+            <li>
                 {skill.name}
             </li>
         ));

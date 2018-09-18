@@ -1,41 +1,41 @@
 ---
-title: "Porque React Seguira Siendo El Rey Del Front-End 👑"
-date: "2018-09-10"
+title: "Porque React Es El Rey Del Front-End 👑"
+date: "2018-09-14"
 section: blog
-cover_image: "./porque-react-seguira-siendo-el-rey-del-front-end.jpg"
-tags: [ 'React', 'Redux', 'Español', 'Trends', 'Javascript', 'Context API' ]
+cover_image: "./porque-react-es-el-rey-del-front-end.jpg"
+tags: [ 'React', 'Angular', 'Vue', 'Español', 'Trends', 'Javascript' ]
 ---
 
-Después te aprender a manejar **React**, es completamente normal -quizás hasta predecible- que vas a comenzar a leer acerca de **Redux**. Después de un vistazo a su documentación, es probable que salgas con mas preguntas que respuestas, pero es difícil culparte. Según la página oficial, podríamos usar la siguiente definición:
+La manera en cómo <span class="react">**React**</span> se ha apropiado del mundo del web development ha sido impresionante. Esto se le puede achacar a muchos factores, ciertamente <span class="react">**React**</span> tuvo mucha ayuda de varios lugares y el hecho de que este proyecto sea respaldado por la gente de Facebook ayudo a que muchos developers decidieran dar el salto inicial hacia <span class="react">**React**</span>.
 
-<p style="text-align: center; font-weight: 700;"><img src="./redux-definicion-1.png" alt="Redux definición 1" /> Hmm??? </p>
+En este mundo que se mueve tan rápido, es fácil en ocasiones el perder el sentido del tiempo. No era hace mucho que <span class="angular">**Angular**</span> era el rey indiscutido del mundo del web development. Pero de repente, paso algo que pocos esperaban. Google, la compañía detrás de <span class="angular">**Angular**</span>, decidió que, para conmemorar el lanzamiento de su segunda versión, <span class="angular">**Angular**</span> 2, iban a reescribir todo el framework desde cero, básicamente haciendo instantáneamente obsoleta la primera versión de <span class="angular">**Angular**</span>.
 
-Al saber **React**, seguramente estarás familiarizado con el concepto de *state*, pero el resto de esas palabras parecen no pertenecer a una misma oración coherente. Bueno, al menos al principio. Afortunadamente, el siguiente párrafo contiene información un poco más clara:
+El decir que esa fue una decisión controversial seria quedarse corto.
 
-<p style="text-align: center; font-weight: 700;"><img src="./redux-definicion-2.png" alt="Redux definición 2" /> Ahhhh, bueno </p>
+Mucha gente -un servidor incluido- quedamos estupefactos ante tal cosa. Pensamos mil cosas, pero creo que la duda era más grande, era si el equipo de <span class="angular">**Angular**</span> haría lo mismo para la versión 3 de su framework, el cual convenientemente ahora cambiaria de versión cada 6 meses. Es decir que, basado en lo que habían hecho, existía la posibilidad de tener que aprender un framework nuevo cada 6 meses.
 
-Si revisas la documentación de **Redux** un poco mas a fondo, vas a ver esta frase una y otra vez:
+Mientras tanto, la gente de Facebook vio una oportunidad enorme: ¿Por qué no atraer a los desilusionados de <span class="angular">**Angular**</span> y tratar de hacerlos parte permanente de nuestra base de usuarios? 
 
->**Redux** será la fuente de verdad para tus datos
+Hay que admitirlo, fue una estrategia brillante y los resultados hablan por sí solos:
+<p style="text-align: center; font-weight: 700;"><img src="./estrellas-en-github-react-angular-vue.jpg" alt="Redux definición 1" /> Ouch... </p>
 
-Al estar los componentes tan fragmentados -y esto es apropósito- es muy fácil que el comunicar el state entre ellos se vuelva una tarea innecesariamente complicada. En otras palabras, **Redux** nos puede ayudar a mejorar y optimizar la comunicación del state entre nuestros componentes al ser la única fuente de state y sus mutaciones. Una fuente única de verdad.
+Esta grafica muestra las estrellas en Github respectivas a cada proyecto y si bien no son un marcador definitivo,dan una idea bastante acertada del interés en cada uno en particular. Así mismo, podemos observar la caída del altar que tuvo <span class="angular">**Angular**</span>. Cabe aclarar que esta grafica toma en cuenta la versión 2+ de <span class="angular">**Angular**</span>.
 
-Y no hace falta ir muy lejos para ver que **Redux** es un absoluto monstruo del mundo de web development y ciertamente dentro del ecosistema de **React**. Tan es así el caso, que mas del 60% de las apps de **React** en producción utilizan **Redux**. ¡Eso es muchísimo! 
+Ese es un dato curioso: la gente de Google se irrita un poco cuando la gente le llama a su framework por cada número de versión que lleva. Al tiempo que escribo esto, estamos en <span class="angular">**Angular**</span> 6 y mucha gente así se refiere al framework, pero si quieres seguir la convención lingüística que quiere Google, a la versión 1 le llamaras <span class="angular">**Angular**</span>JS y a la versión 2 en adelante, simplemente le llamaras <span class="angular">**Angular**</span>.
 
-La cifra anterior es de acuerdo a Mark Ericsson, quien es uno de los mantenedores de **Redux**. La figura anterior se vuelve incluso más impresionante al notar que no se están tomando en cuenta alternativas a **Redux** como lo son la popular MobX.
+Esos y otros errores más, muchos en la presentación y marketing de <span class="angular">**Angular**</span> contribuyeron de manera definitiva a la popularización de <span class="react">**React**</span>. 
 
-Soy de la opinión que manejar el state de tu app (incluso si no es de **React**) con una librería como **Redux** es inteligente, ya que, de entrada, provee un sistema bastante explicito para manejar el state de tus apps, eso sin tomar en cuenta lo bien que tus apps irán escalando y lo organizado de tu código al usar **Redux** exclusivamente.
+###A New Challenger Appears?
+Si bien es cierto que <span class="react">**React**</span> es una librería y no un framework de muro a muro, el ecosistema ha facilitado que pueda contender con <span class="angular">**Angular**</span> y <span class="vue">**Vue**</span> prácticamente como si fuera un framework completo. 
 
-###En conclusión... 
+Al ver la gráfica, seguramente notaste que también incluí al proyecto <span class="vue">**Vue**</span>, un framework que muy recientemente supero a <span class="react">**React**</span> en cuanto a las estrellas en Github. <span class="vue">**Vue**</span> combina lo que muchos consideran las mejores partes de <span class="react">**React**</span> &amp; <span class="angular">**Angular**</span> para crear un framework integro con constantes innovaciones como su interfaz grafica que fue muy recientemente presentada al mundo, la cual nos va a permitir manejar y crear aplicaciones de <span class="vue">**Vue**</span> desde una interfaz intuitiva y amigable.
 
-¿Es **Redux** absolutamente necesario para tus apps de **React**? No, pero usarlo termina casi siempre siendo una muy buena idea. Al principio es probable -tal vez hasta preferible- que puedas manejar todo con *setState()*, pero si tu app es de tamaño medio a grande, vas a llegar a la conclusión de que utilizar **Redux** es una buena inversión de tu tiempo.
+Este tipo de innovaciones son algo que constantemente <span class="vue">**Vue**</span> nos da a los entusiastas de ese framework y no cabe duda que el equipo de <span class="react">**React**</span> ya debe de haber tomado nota, entonces habrá que ver si <span class="react">**React**</span> seguirá siendo el rey o si tal vez habrá una nueva coronación en el mundo del web development. 
 
-Debo de mencionar el hecho de que hay susurros de que la nueva *Context API* presente en React a partir de la version 16.5 va a causar que muchos pongan a Redux y a otras librerías similares de lado. Pero como cualquier tecnología nueva, va a tomar un tiempo en volverse el nuevo estándar, incluso si es el reemplazo definitivo de **Redux**, lo cual no estoy convencido que lo sea.
 
 ***
 
 
 **Referencias:**
 
-* [Documentación de Redux en Español](https://es.redux.js.org)
-* [Redux - Not Dead Yet!](https://blog.isquaredsoftware.com/2018/03/redux-not-dead-yet/)
+* [Contador de Estrellas en Github](http://www.timqian.com/star-history/#facebook/react&angular/angular&vuejs/vue)
