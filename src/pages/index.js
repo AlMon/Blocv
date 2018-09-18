@@ -63,7 +63,7 @@ export default class Frontpage extends Component {
 
         {/*------- Projects loop -------*/}
         <div className="container pt4">
-          <h2 className="Title text blue">Proyectos Open Source Recientes</h2>
+          <h2 className="Title">Proyectos Open Source Recientes</h2>
         </div>
         <PostLoop loop={projects.edges} skip={!skip} />
         <div className="container centered" style={{marginBottom : "50px"}}>

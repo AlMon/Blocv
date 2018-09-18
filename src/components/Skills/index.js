@@ -31,6 +31,7 @@ export default class Skills extends Component {
             { class: 'js', name: 'JavaScript' },
             { class: 'es6', name: 'ES6' },
             { class: 'react', name: 'React' },
+            { class: 'redux', name: 'Redux' },
             { class: 'angular', name: 'Angular' },
             { class: 'vue', name: 'Vue' },
             { class: 'gatsby', name: 'Gatsby' },
@@ -59,7 +60,7 @@ export default class Skills extends Component {
 
         return(
             <div className="container row Skills">
-                <p>I've got the <strong>skills</strong> to the pay the <strong>bills</strong> <img src={IdeaEmoji} alt="Idea emoji" height="35" style={{paddingTop: "5px"}} /></p>
+                <p>Mis <strong>conocimientos</strong> incluyen las siguientes <strong>tecnologías</strong> <img src={IdeaEmoji} alt="Idea emoji" height="35" style={{paddingTop: "5px"}} /></p>
                 <section className={'TagCloud skills ' + seeMore}>
                     <ul>
                         { skillsList }

@@ -99,8 +99,6 @@ export default class BlogPost extends Component {
 
     return (
         <div className="Blog">
-          {/*----- Reading progress only on blog -----*/}
-          { post.frontmatter.section === 'blog' && <ReadingProgress targetEl="#Article" /> }
           <SEO 
             key={`seo-${post.fields.slug}`}
             postImage={postImage}
@@ -129,7 +127,7 @@ export default class BlogPost extends Component {
               {/*----- Author / Date meta data -----*/}
               <aside className="meta">
                 <figure className="author">
-                  <img src={ryosukeAvatar} alt="Al Mondragón" style={{marginTop: "10px"}} />
+                  <img src={ryosukeAvatar} alt="Al Mondragón" />
                   <h5>
                     Al Mondragón
                     <span className="date">{ nicetime(currentDate, postDate) }</span>                  
@@ -137,11 +135,11 @@ export default class BlogPost extends Component {
                 </figure>
                 <section className="share">
                   <a href={`http://twitter.com/share?text=${post.frontmatter.title}&url=https://mondragon.pro/${post.fields.slug}&hashtags=${post.frontmatter.tags }`} className="twitter">
-                    { post.frontmatter.section === 'blog' ? 'Compartir en Twitter' : 'Compartir' }
+                    { post.frontmatter.section === 'blog' ? 'Twitter' : 'Compartir' }
                     <Twitter />
                   </a>
                   <a href={`http://www.tumblr.com/share/link?url=https://mondragon.pro${post.fields.slug}`} className="tumblr">
-                    { post.frontmatter.section === 'blog' ? 'Compartir en Tumblr' : 'Compartir' }
+                    { post.frontmatter.section === 'blog' ? 'Tumblr' : 'Compartir' }
                     <Tumblr />
                   </a>
                 </section>
@@ -151,16 +149,17 @@ export default class BlogPost extends Component {
 
         </article>
 
-        { post.frontmatter.section === 'blog' && <Comments post={post} /> }
 
           { related ? 
             <nav className="RelatedPosts container">
-              <h3 className="Title">Related Posts</h3>
+              <h3 className="Title">También Te Podría Interesar:</h3>
               <PostLoop loop={related} skip={skip} />
             </nav>
             :
             ''
           }
+
+        
         </div>
     );
   }

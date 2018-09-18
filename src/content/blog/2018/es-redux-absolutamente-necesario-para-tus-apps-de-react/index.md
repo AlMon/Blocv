@@ -1,6 +1,6 @@
 ---
 title: "¿Es Redux Absolutamente Necesario Para Tus Apps de React? 🤔"
-date: "2018-09-04"
+date: "2018-09-15"
 section: blog
 cover_image: "./es-redux-absolutamente-necesario-para-tus-apps-de-react.jpg"
 tags: [ 'React', 'Redux', 'Español', 'Trends', 'Javascript', 'Context API' ]
