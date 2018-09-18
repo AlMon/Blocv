@@ -51,7 +51,7 @@ export default class Frontpage extends Component {
 
         {/*------- Featured image -------*/}
         <div className="container">
-          <h2 className="Title text blue">Lo Último de Mi Blog</h2>        
+          <h2 className="Title">Lo Último de Mi Blog</h2>        
         </div>
         <Featured post={blog.edges[0].node} />
 

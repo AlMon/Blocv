@@ -60,13 +60,13 @@ const getSchemaOrgJSONLD = ({
                 description,
                 author: {
                     '@type': 'Person',
-                    name: 'Ryosuke Hana',
+                    name: 'Al Mondragón',
                 },
                 publisher: {
                     '@type': 'Organization',
                     url: 'https://mondragon.pro',
                     logo: config.logo,
-                    name: 'Ryosuke Hana',
+                    name: 'Al Mondragón',
                 },
                 mainEntityOfPage: {
                     '@type': 'WebSite',
@@ -102,7 +102,7 @@ const SEO = ({ postData, postImage, isBlogPost }) => {
     return (
         <Helmet>
             {/* General tags */}
-            <title>{ title ? title + ' - Ryosuke' : 'Ryosuke' }</title>
+            <title>{ title ? title + ' - Al Mondragón' : 'Al Mondragón' }</title>
             <meta name="description" content={description} />
             <meta name="image" content={image} />
 

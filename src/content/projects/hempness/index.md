@@ -10,7 +10,7 @@ In 2018, I was approached by **Hi-ness**, an cannabis infused edibles manufactur
 
 My role was a combination of **designing pages** and **converting PSDs** provided by the client to **a Shopify theme**. One of the key features that stood out was a dynamic image slider for the frontpage. I was also tasked with creating a product mockup for the website by superimposing the product label on stock photography.
 
-<p><img src="./hempness-imac.jpg" alt="" /></p>
+<p style="text-align: center; font-weight: 700;"><img src="./hempness-imac.jpg" alt="hdm" />Texto </p>
 <p><img src="./hempness-iphones.jpg" alt="" /></p>
 <p><img src="./hempness-imac-2.jpg" alt="" /></p>
 
