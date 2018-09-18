@@ -16,7 +16,7 @@ export default (props) => {
     return (
         <section className="Comments container">
             <section className="Segment content">
-                <h3 className="Title">Leave a comment</h3>
+                <h3 className="Title">Deja un comentario:</h3>
                 <Disqus.DiscussionEmbed shortname={disqusShortname} config={disqusConfig} />
             </section>
         </section>
