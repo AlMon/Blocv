@@ -41,6 +41,9 @@ class Header extends Component {
       <nav className="Navigation">
         <ul>
           <li>
+            <Link to={'/'}>Inicio</Link>
+          </li>
+          <li>
             <Link to={'/blog'}>Mi Blog</Link>
           </li>
           <li>

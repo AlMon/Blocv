@@ -874,7 +874,6 @@ a.Title:hover,
 .Title__sub
 {
   text-transform:uppercase;
-  color:#909090;
 }
 
 
@@ -952,7 +951,7 @@ a.Title:hover,
 
 .App
 {
-  margin-top:3.5rem;
+  margin-top:1.25rem;
 }
 
 .Header 
@@ -971,7 +970,7 @@ a.Title:hover,
 
 .Header .logo
 {
-  margin-left:1rem;
+  margin-left:3rem;
 }
 
 .Header .logo svg,
@@ -979,7 +978,7 @@ a.Title:hover,
 .Header .Navigation
 {
   width: auto;
-  height:30px;
+  height:33px;
 }
 
 .Header .Navigation
@@ -1951,9 +1950,15 @@ progress::-moz-progress-bar {
 .captioned {
   text-align: center;
   font-style: italic;
-  font-weight: 600;
+  font-weight: 6f00;
 }
 
 .btn-content {
   text-align: center;
+}
+
+.ok-emoji {
+  position: absolute;
+  margin-top: -20px;
+  margin-left: 10px;
 }

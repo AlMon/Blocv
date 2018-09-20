@@ -32,7 +32,7 @@ export default class Frontpage extends Component {
                         Mi nombre es <span className="text blue">Alberto Mondragón</span>
                     </h1>
                     <h3>
-                        Me encanta el desarrollo web <span className="text blue">Front-End</span> <img src={OkEmoji} alt="Ok emoji" />
+                        Me encanta el desarrollo web <span className="text blue">Front-End</span> <img className="ok-emoji" src={OkEmoji} alt="Ok emoji" />
                     </h3>
                 </div>
                 <div className="container About__bio">
