@@ -5,35 +5,56 @@ import NipponLogo from '../../assets/img/ryosuke-hiragana.svg'
 
 class Header extends Component {
 
-  render() {    
-    return(
+  render() {
+    return (
       <header className="Header">
         <Link to={'/'} className="logo">
-          <svg width="140px" height="67px" viewBox="0 0 140 67" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
-              <title>亮介 copy 11</title>
-              <defs></defs>
-              <g id="ryosuke" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                  <path d="M35.16,56.184 L35.16,42.936 L46.392,42.936 L46.392,54.24 C46.392,55.176 46.608,55.68 46.968,55.896 C47.4,56.112 48.624,56.184 50.496,56.184 C52.368,56.184 53.376,55.896 53.736,55.392 C54.096,54.816 54.456,52.944 54.672,49.776 L65.112,50.712 C64.824,54.672 64.824,56.544 64.248,58.92 C63.672,61.224 63.528,62.088 62.232,63.24 C60.864,64.392 60.144,64.608 57.624,64.968 C55.176,65.328 53.448,65.328 49.416,65.328 C47.04,65.328 45.168,65.328 43.728,65.256 C40.992,65.184 38.4,64.608 37.32,63.816 C35.592,62.448 35.16,60.432 35.16,56.184 Z M19.752,42.576 L30.696,43.512 C29.472,55.176 21.552,62.448 5.568,66.408 L0.672,57.192 C7.224,55.68 11.832,53.88 14.496,51.792 C17.232,49.704 18.96,46.608 19.752,42.576 Z M2.544,49.272 L2.544,33.36 L63.456,33.36 L63.456,48.552 L53.016,48.552 L53.016,41.208 L12.984,41.208 L12.984,49.272 L2.544,49.272 Z M27.24,5.928 L27.24,0.384 L38.76,0.384 L38.76,5.928 L65.472,5.928 L65.472,14.568 L0.528,14.568 L0.528,5.928 L27.24,5.928 Z M8.88,16.584 L57.12,16.584 L57.12,31.416 L8.88,31.416 L8.88,16.584 Z M45.816,25.512 L45.816,22.704 L20.184,22.704 L20.184,25.512 L45.816,25.512 Z M125.016,25.08 L125.016,65.472 L113.568,65.472 L113.568,23.352 L122.424,23.352 C116.232,19.32 110.4,14.568 105,9.096 C99.6,14.568 93.768,19.32 87.576,23.352 L97.512,23.352 L97.512,30.264 C97.512,52.008 93.768,58.2 79.584,66.192 L73.248,57.336 C83.904,51.576 86.28,47.616 86.28,30.264 L86.28,24.216 C82.392,26.592 78.576,28.752 74.76,30.624 L70.656,21.48 C81.168,16.008 90.168,9.6 97.8,2.04 L112.2,2.04 C119.832,9.6 128.832,16.008 139.344,21.48 L135.24,30.624 C131.568,28.824 128.184,26.952 125.016,25.08 Z" id="亮介-copy-11" fill="#A0A0A0"></path>
-              </g>
-          </svg>
+          <svg width="140px" height="67px" viewBox="0 0 140 67" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">  
+          <image id="image0" width="140px" height="67px" x="0" y="0"
+            href="data:image/png;base64,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
+              OjAwL0x1yQAAAABJRU5ErkJggg==" />
+        </svg>
         </Link>
-        <nav className="Navigation">
-          <ul>
-            <li>
-              <Link to={'/blog'}>Mi Blog</Link>
-            </li>
-            <li>
-              <Link to={'/projects'}>Proyectos</Link>
-            </li>
-            <li>
-              <Link to={'/about'}>Acerca de Mi</Link>
-            </li>
-          </ul>
-        </nav>
-      </header>
+      <nav className="Navigation">
+        <ul>
+          <li>
+            <Link to={'/blog'}>Mi Blog</Link>
+          </li>
+          <li>
+            <Link to={'/projects'}>Proyectos</Link>
+          </li>
+          <li>
+            <Link to={'/about'}>Acerca de Mi</Link>
+          </li>
+        </ul>
+      </nav>
+      </header >
     )
   }
-  
+
 }
 
 export default Header
