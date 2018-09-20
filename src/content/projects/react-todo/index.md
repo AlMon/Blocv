@@ -3,15 +3,20 @@ title: React ToDo
 date: "2018-09-17"
 section: project
 cover_image: "./react-todo-cover.jpg"
-tags: [ 'angular', 'database', 'CRUD' ]
+tags: [ 'react', 'database', 'CRUD' ]
 ---
 
-Este proyecto fue creado con <span class="angular">**AngularJS**</span> y tiene capacidad para crear, editar, guardar y eliminar todas las notas que quieras. Las notas son persistentes y use LocalStorage para su preservación. A continuación, muestro unos screenshots mostrando las capacidades de esta web app: 
+Este proyecto fue creado con <span class="react">**React**</span> y tiene capacidad para crear, editar, guardar y eliminar todos los ToDos que quieras. 
 
-<p class="captioned"><img src="./angular-notepad-1.png" alt="Angular Notepad 1" />Angular Notepad Con Una Nota</p>
-<p class="captioned"><img src="./angular-notepad-2.png" alt="Angular Notepad 2" />Pantalla Con La Nota Enfocada</p>
-<p class="captioned"><img src="./angular-notepad-3.png" alt="Angular Notepad 3" />Editando El Titulo</p>
-<p class="captioned"><img src="./angular-notepad-4.png" alt="Angular Notepad 4" />Editando La Categoría</p>
-<p class="captioned"><img src="./angular-notepad-5.png" alt="Angular Notepad 5" />Editando El Cuerpo De La Nota</p>
+Los ToDos son persistentes y la app está conectada a una API real usando libreria Axios para manejar las operaciones de interactividad con la API, la cual le da opciones colaborativas a la app, entonces cualquier ToDo que pongas ahí, permanecerá visible hasta que tu o alguien más la elimine de la lista. 
+
+Los ToDos pueden ser editadas, guardadas de nuevo y eliminadas. A continuación, muestro unos screenshots mostrando las capacidades de esta web app:
+
+<p class="captioned"><img src="./react-todo-1.png" alt="React ToDo 1" />La App Cargando Los ToDos</p>
+<p class="captioned"><img src="./react-todo-2.png" alt="React ToDo 2" />La App Con Un ToDo Pendiente</p>
+<p class="captioned"><img src="./react-todo-3.png" alt="React ToDo 3" />Editando El ToDo</p>
+<p class="captioned"><img src="./react-todo-4.png" alt="React ToDo 4" />La App Mostrando El ToDo Editado</p>
+<p class="captioned"><img src="./react-todo-5.png" alt="React ToDo 5" />La App Confirmando Que Se Borro Un ToDo</p>
+
 <p class="btn-content">
-<a href="http://ngpad.surge.sh/" class="btn">Ver La App En Vivo</a></p>
+<a href="https://rtd.netlify.com/" class="btn">Ver La App En Vivo</a></p>

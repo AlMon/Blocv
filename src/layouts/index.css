@@ -1,6 +1,6 @@
 /* -------------- Fonts ---------------- */
 
-@import url('https://fonts.googleapis.com/css?family=Heebo:400,800');
+@import url('https://fonts.googleapis.com/css?family=Heebo:400,600,700,800');
 
 /* -------------- Resets / Normalization ---------------- */
 
@@ -1951,6 +1951,7 @@ progress::-moz-progress-bar {
 .captioned {
   text-align: center;
   font-style: italic;
+  font-weight: 600;
 }
 
 .btn-content {

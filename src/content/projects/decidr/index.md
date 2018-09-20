@@ -3,15 +3,18 @@ title: Decidr
 date: "2018-09-17"
 section: project
 cover_image: "./decidr-cover.jpg"
-tags: [ 'angular', 'database', 'CRUD' ]
+tags: [ 'react', 'database', 'CRUD' ]
 ---
 
-Este proyecto fue creado con <span class="angular">**AngularJS**</span> y tiene capacidad para crear, editar, guardar y eliminar todas las notas que quieras. Las notas son persistentes y use LocalStorage para su preservación. A continuación, muestro unos screenshots mostrando las capacidades de esta web app: 
+Este proyecto fue creado con <span class="react">**React**</span> y tiene capacidad para tomar decisiones por ti basado en las opciones que le des. La app toma la serie de opciones y después de escoger una al azar, te la muestra en un modal. 
 
-<p class="captioned"><img src="./angular-notepad-1.png" alt="Angular Notepad 1" />Angular Notepad Con Una Nota</p>
-<p class="captioned"><img src="./angular-notepad-2.png" alt="Angular Notepad 2" />Pantalla Con La Nota Enfocada</p>
-<p class="captioned"><img src="./angular-notepad-3.png" alt="Angular Notepad 3" />Editando El Titulo</p>
-<p class="captioned"><img src="./angular-notepad-4.png" alt="Angular Notepad 4" />Editando La Categoría</p>
-<p class="captioned"><img src="./angular-notepad-5.png" alt="Angular Notepad 5" />Editando El Cuerpo De La Nota</p>
+Las opciones son persistentes y usan LocalStorage para su preservación. Las mismas pueden ser editadas, guardadas de nuevo y eliminadas en unidad o todas a la vez a consideración del usuario. A continuación, muestro unos screenshots mostrando las capacidades de esta web app:
+
+<p class="captioned"><img src="./decidr-1.png" alt="Decidr 1" />Tratando De Añadir Una Opción A La Lista</p>
+<p class="captioned"><img src="./decidr-2.png" alt="Decidr 2" />La App Con 3 Opciones</p>
+<p class="captioned"><img src="./decidr-3.png" alt="Decidr 3" />La App Diciendonos Cual Opción Fue Seleccionada</p>
+<p class="captioned"><img src="./decidr-4.png" alt="Decidr 4" />La App Despues De Eliminar Una Opción</p>
+<p class="captioned"><img src="./decidr-5.png" alt="Decidr 5" />La App Despues De Eliminar Todas Las Opciones</p>
+
 <p class="btn-content">
-<a href="http://ngpad.surge.sh/" class="btn">Ver La App En Vivo</a></p>
+<a href="https://decidr.netlify.com/" class="btn">Ver La App En Vivo</a></p>
