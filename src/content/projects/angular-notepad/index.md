@@ -6,10 +6,12 @@ cover_image: "./angular-notepad-cover.jpg"
 tags: [ 'angular', 'database', 'CRUD' ]
 ---
 
-The client, Doja, requested photography for it's new iOS and Android application. The photos would act the background image for primary categories on a touch-based carousel navigation. The goal was to capture each category, from edibles to flowers to topicals.
+Este proyecto fue creado con <span class="angular">**AngularJS**</span> y tiene capacidad para crear, editar, guardar y eliminar todas las notas que quieras. Las notas son persistentes y use LocalStorage para su preservación. A continuación, muestro unos screenshots mostrando las capacidades de esta web app: 
 
-<p class="captioned"><img src="./angular-notepad-1.png" alt="Angular Notepad 1" />Screenshot De La App</p>
-<p><img src="./angular-notepad-2.png" alt="Angular Notepad 2" /></p>
-<p><img src="./angular-notepad-3.png" alt="Angular Notepad 3" /></p>
-<p><img src="./angular-notepad-4.png" alt="Angular Notepad 4" /></p>
-<p><img src="./angular-notepad-5.png" alt="Angular Notepad 5" /></p>
+<p class="captioned"><img src="./angular-notepad-1.png" alt="Angular Notepad 1" />Angular Notepad Con Una Nota</p>
+<p class="captioned"><img src="./angular-notepad-2.png" alt="Angular Notepad 2" />Pantalla Con La Nota Enfocada</p>
+<p class="captioned"><img src="./angular-notepad-3.png" alt="Angular Notepad 3" />Editando El Titulo</p>
+<p class="captioned"><img src="./angular-notepad-4.png" alt="Angular Notepad 4" />Editando La Categoría</p>
+<p class="captioned"><img src="./angular-notepad-5.png" alt="Angular Notepad 5" />Editando El Cuerpo De La Nota</p>
+<p class="btn-content">
+<a href="http://ngpad.surge.sh/" class="btn">Ver La App En Vivo</a></p>
