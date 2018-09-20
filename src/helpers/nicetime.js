@@ -10,26 +10,26 @@ export default function nicetime(current, previous) {
         var elapsed = current - previous;
 
         if (elapsed < msPerMinute) {
-            return Math.round(elapsed / 1000) + ' seconds ago';
+            return 'Publicado hace ' + Math.round(elapsed / 1000) + " segundos";
         }
 
         else if (elapsed < msPerHour) {
-            return Math.round(elapsed / msPerMinute) + ' minutes ago';
+            return 'Publicado hace ' + Math.round(elapsed / msPerMinute) + " minutos";
         }
 
         else if (elapsed < msPerDay) {
-            return Math.round(elapsed / msPerHour) + ' hours ago';
+            return 'Publicado hace ' + Math.round(elapsed / msPerHour) + " horas";
         }
 
         else if (elapsed < msPerMonth) {
-            return Math.round(elapsed / msPerDay) + ' days ago';
+            return 'Publicado hace ' + Math.round(elapsed / msPerDay) + " dias";
         }
 
         else if (elapsed < msPerYear) {
-            return Math.round(elapsed / msPerMonth) + ' months ago';
+            return 'Publicado hace ' + Math.round(elapsed / msPerMonth) + " meses";
         }
 
         else {
-            return Math.round(elapsed / msPerYear) + ' years ago';
+            return 'Publicado hace ' + Math.round(elapsed / msPerYear) + " años";
         }
 }

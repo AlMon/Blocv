@@ -1,6 +1,6 @@
 ---
 title: React ToDo
-date: "2018-09-17"
+date: "2018-09-20"
 section: project
 cover_image: "./react-todo-cover.jpg"
 tags: [ 'react', 'database', 'CRUD' ]

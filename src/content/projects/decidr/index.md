@@ -1,6 +1,6 @@
 ---
-title: Decidr
-date: "2018-09-17"
+title: React Decidr
+date: "2018-09-19"
 section: project
 cover_image: "./decidr-cover.jpg"
 tags: [ 'react', 'database', 'CRUD' ]

@@ -1,6 +1,6 @@
 ---
 title: Angular Notepad
-date: "2018-09-17"
+date: "2018-09-18"
 section: project
 cover_image: "./angular-notepad-cover.jpg"
 tags: [ 'angular', 'database', 'CRUD' ]

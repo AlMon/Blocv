@@ -44,7 +44,8 @@ export default class Frontpage extends Component {
           <figure>
             <Img resolutions={RyosukeAvatar.resolutions} alt="Ryosuke in white Japanese font on blue background" />
           </figure>
-          <p>Soy un <strong>Diseñador</strong> e <strong>Ingeniero Front-End</strong> actualmente viviendo en la Ciudad de México. Me encanta todo lo que tiene que ver con <strong>React</strong>, <strong>Angular</strong>, &amp; <strong>Vue</strong>.</p>
+          <p>Soy un <strong>Diseñador</strong> e <strong>Ingeniero Front-End</strong> actualmente viviendo en la Ciudad de México. Me encanta todo lo que 
+          tiene que ver con <strong className="react">React</strong>, <strong className="angular">Angular</strong>, &amp; <strong className="vue">Vue</strong>.</p>
         </div>
 
         <ServicesGrid />
