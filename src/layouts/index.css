@@ -1966,3 +1966,15 @@ progress::-moz-progress-bar {
 .next {
   color: #000;
 }
+
+.php {
+  color: #8892BF;
+}
+
+.mysql {
+  color: #f59620;
+}
+
+.javascript {
+  color: #f0db4f;
+}
