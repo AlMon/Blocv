@@ -1590,7 +1590,7 @@ progress::-moz-progress-bar {
 .Frontpage__hero,
 .Frontpage__about
 {
-  padding:3rem 1rem 3rem 6rem;
+  padding: 0.5rem 1rem 3rem 6rem;
   animation: 1s ease-out 0s 1 slideUpFade;
 }
 
