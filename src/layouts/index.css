@@ -1590,7 +1590,7 @@ progress::-moz-progress-bar {
 .Frontpage__hero,
 .Frontpage__about
 {
-  padding: 3rem 1rem 3rem 6rem;
+  padding: 3.5rem 1rem 3rem 6rem;
   animation: 1s ease-out 0s 1 slideUpFade;
 }
 
@@ -1976,4 +1976,20 @@ progress::-moz-progress-bar {
 
 .javascript {
   color: #f0db4f;
+}
+
+.graphql {
+  color: #e535ab;
+}
+
+.yarn {
+  color: #2c8ebb;
+}
+
+.jest {
+  color: #99425b;
+}
+
+.facebook {
+  color: #3b579d;
 }
