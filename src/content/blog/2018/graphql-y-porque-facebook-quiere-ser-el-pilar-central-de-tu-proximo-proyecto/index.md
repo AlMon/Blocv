@@ -1,9 +1,9 @@
 ---
-title: "GraphQL & Porque <span class="facebook">**Facebook**</span> Quiere Ser El Pilar Central De Tu Próximo Proyecto ↪️"
+title: "GraphQL & Porque Facebook Quiere Ser El Pilar Central De Tu Próximo Proyecto ↪️"
 date: "2018-10-16"
 section: blog
 cover_image: "./graphql-y-porque-facebook-quiere-ser-el-pilar-central-de-tu-proximo-proyecto.jpg"
-tags: [ 'GraphQL', '<span class="react">**React**</span>', 'Español', 'Trends', 'Javascript' ]
+tags: [ 'GraphQL', 'React', 'Español', 'Trends', 'Javascript' ]
 ---
 
 Una vez más parece que <span class="facebook">**Facebook**</span> quiere conquistar un sector adicional del desarrollo web. No ha sido suficiente para el gigante de Sillicon Valley apoderarse de la oportunidad que les puso **Google** de frente al crear y popularizar <span class="react">**React**</span>, así como crear su propia alternativa al Node Package Manager con <span class="react">**Yarn**</span>, sino que al parecer quieren tomar parte en todas las partes del stack de las aplicaciones web modernas.
