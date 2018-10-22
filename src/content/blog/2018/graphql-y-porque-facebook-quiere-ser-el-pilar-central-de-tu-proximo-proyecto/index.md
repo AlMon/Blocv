@@ -6,7 +6,7 @@ cover_image: "./graphql-y-porque-facebook-quiere-ser-el-pilar-central-de-tu-prox
 tags: [ 'GraphQL', 'React', 'Español', 'Trends', 'Javascript' ]
 ---
 
-Una vez más parece que <span class="facebook">**Facebook**</span> quiere conquistar un sector adicional del desarrollo web. No ha sido suficiente para el gigante de Sillicon Valley apoderarse de la oportunidad que les puso **Google** de frente al crear y popularizar <span class="react">**React**</span>, así como crear su propia alternativa al Node Package Manager con <span class="react">**Yarn**</span>, sino que al parecer quieren tomar parte en todas las partes del stack de las aplicaciones web modernas.
+Una vez más parece que <span class="facebook">**Facebook**</span> quiere conquistar un sector adicional del desarrollo web. No ha sido suficiente para el gigante de Sillicon Valley apoderarse de la oportunidad que les puso <span class="google">**Google**</span> de frente al crear y popularizar <span class="react">**React**</span>, así como crear su propia alternativa al Node Package Manager con <span class="react">**Yarn**</span>, sino que al parecer quieren tomar parte en todos los aspectos del stack de las aplicaciones web modernas.
 
 Como bien sabes, una de las partes mas importantes de cualquier proyecto es la base de datos y el cómo tu aplicación interactúa con ella. Ya desde hace varios años, si decides crear y usar una API, la respuesta era obvia: tiene que ser una REST API. La mayoría de los developers nos sentimos cómodos utilizando APIs tipo REST ya que sirven y seguirán sirviendo eficientemente nuestras necesidades, de hecho, seria correcto el decir que las APIs tipo REST son el estándar de oro en el mundo del desarrollo web moderno.
 
@@ -36,4 +36,4 @@ Pero los hechos están claros, <span class="facebook">**Facebook**</span> quiere
 
 **Referencias:**
 
-* [Tecnologías Open Source de <span class="facebook">**Facebook**</span>](https://opensource.fb.com)
+* [Tecnologías Open Source de Facebook](https://opensource.fb.com)
