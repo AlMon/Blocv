@@ -1,6 +1,6 @@
 ---
 title: Web Dev 30
-date: "2018-12-30"
+date: "2018-12-31"
 section: project
 cover_image: "./web-dev-30-cover.jpg"
 tags: [ 'HTML5', 'Challenge', 'Bootstrap' ]
