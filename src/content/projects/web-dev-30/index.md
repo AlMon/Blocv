@@ -8,11 +8,13 @@ tags: [ 'HTML5', 'Challenge', 'Bootstrap' ]
 
 Maquetar sitios web siempre ha sido una parte importante de mi kit de herramientas como desarrollador front end. Siendo este el caso, me propuse a crear un proyecto que pusiera a la prueba mis músculos de desarrollo con HTML & CSS.
 
-<p class="captioned"><img src="./react-todo-1.png" alt="React ToDo 1" />La App Cargando Los ToDos</p>
-<p class="captioned"><img src="./react-todo-2.png" alt="React ToDo 2" />La App Con Un ToDo Pendiente</p>
-<p class="captioned"><img src="./react-todo-3.png" alt="React ToDo 3" />Editando El ToDo</p>
-<p class="captioned"><img src="./react-todo-4.png" alt="React ToDo 4" />La App Mostrando El ToDo Editado</p>
-<p class="captioned"><img src="./react-todo-5.png" alt="React ToDo 5" />La App Confirmando Que Se Borro Un ToDo</p>
+Web Dev 30 consiste en un proyecto donde tome un archivo de PSD, lo corte y maquete para ser un sitio web completo todos los días por 30 días consecutivos. Los sitios están en vivo y disponibles en GitHub ya que decidí hacerlos 100% de fuente abierta. 
+
+<p class="captioned"><img src="./Valentino.jpg" alt="Valentino" />Valentino - Dia #1</p>
+<p class="captioned"><img src="./Perth.jpg" alt="Perth" />Perth - Dia #8  </p>
+<p class="captioned"><img src="./Jack.jpg" alt="Jack" />Jack - Dia #16</p>
+<p class="captioned"><img src="./Log-In.jpg" alt="Log In" />Log In - Dia #24</p>
+<p class="captioned"><img src="./Two-Bytes.jpg" alt="Two Bytes" />Two Bytes - Dia #30</p>
 
 <p class="btn-content">
-<a href="https://rtd.netlify.com/" class="btn">Ver La App En Vivo</a></p
+<a href="https://github.com/AlMon/Web-Dev-30" class="btn">Repositorio De GitHub Con Mis 30 Sitios</a></p
